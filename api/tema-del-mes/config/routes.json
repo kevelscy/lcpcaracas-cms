@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tema-del-mes",
+      "handler": "tema-del-mes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tema-del-mes",
+      "handler": "tema-del-mes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tema-del-mes",
+      "handler": "tema-del-mes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

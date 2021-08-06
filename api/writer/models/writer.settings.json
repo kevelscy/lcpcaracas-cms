@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "escritores",
+  "info": {
+    "name": "Escritores",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "email": {
+      "type": "string"
+    },
+    "articulos": {
+      "collection": "article",
+      "via": "autor"
+    },
+    "telefono": {
+      "type": "string",
+      "maxLength": 30,
+      "minLength": 5
+    }
+  }
+}

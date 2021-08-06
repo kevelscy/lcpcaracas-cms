@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "reservaciones",
+  "info": {
+    "name": "Reservaciones"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "maximo_reservaciones": {
+      "type": "integer",
+      "required": true,
+      "default": 60,
+      "min": 20,
+      "max": 200
+    },
+    "habilitar": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "contador_primer_servicio": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 200,
+      "min": 0
+    },
+    "contador_segundo_servicio": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 200,
+      "min": 0
+    },
+    "contador_tercer_servicio": {
+      "type": "integer",
+      "default": 0,
+      "max": 200,
+      "min": 0,
+      "required": true
+    }
+  }
+}
