@@ -516,9 +516,7 @@
     "schemas": {
       "Actividades": {
         "required": [
-          "id",
-          "imagen_principal",
-          "imagen_mobile"
+          "id"
         ],
         "properties": {
           "id": {

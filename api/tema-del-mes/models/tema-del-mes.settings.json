@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "tema_del_mes",
   "info": {
-    "name": "Tema del mes"
+    "name": "Tema del mes",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -18,7 +19,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     },
     "imagen_mobile": {
@@ -28,7 +29,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     }
   }

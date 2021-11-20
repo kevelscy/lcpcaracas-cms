@@ -317,9 +317,7 @@
     "schemas": {
       "Tema-del-mes": {
         "required": [
-          "id",
-          "imagen_principal",
-          "imagen_mobile"
+          "id"
         ],
         "properties": {
           "id": {

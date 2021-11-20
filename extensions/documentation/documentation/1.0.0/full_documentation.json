@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/06/2021 3:32:30 PM"
+    "x-generation-date": "11/20/2021 8:14:19 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -31,7 +31,7 @@
       "description": "Staging server"
     },
     {
-      "url": "https://lcpcaracas-cms.herokuapp.com",
+      "url": "YOUR_PRODUCTION_SERVER",
       "description": "Production server"
     }
   ],
@@ -6006,9 +6006,7 @@
     "schemas": {
       "Actividades": {
         "required": [
-          "id",
-          "imagen_principal",
-          "imagen_mobile"
+          "id"
         ],
         "properties": {
           "id": {
@@ -6613,9 +6611,7 @@
       },
       "Tema-del-mes": {
         "required": [
-          "id",
-          "imagen_principal",
-          "imagen_mobile"
+          "id"
         ],
         "properties": {
           "id": {
